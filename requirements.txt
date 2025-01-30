@@ -6,3 +6,4 @@ seaborn=0.13.2=hd8ed1ab_2
 statsmodels=0.14.2=py312h1a27103_0
 tqdm=4.66.4=pyhd8ed1ab_0
 python=3.12.4=h889d299_0_cpython
+pickleshare=0.7.5=py_1003
