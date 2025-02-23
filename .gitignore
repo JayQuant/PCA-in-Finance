@@ -1,4 +1,4 @@
-pca_results.pkl
+
 *.log
 __pycache__/
 ipnyb_checkpoints/
