@@ -11,7 +11,7 @@ In 1., we provide a very basic peek into the concept of eigenportfolios, or eige
 In 2., we will provide a comprehensive, in-depth analysis in dynamic eigenportfolios, constructing mean-reverting residuals by subtracting systematic factors from individual asset returns, and then constructing signals to trade these mean-reverting series. We will be closely replicating the paper written by Avellaneda (2008), but focusing on the practical side.
 
 ## Statistical Arbitrage Using PCA
-In the notebook directory, "PCA_EDA.ipynb" and "PCA_Backtesting.ipynb" are the notebook files that contain all the work supporting the paper [PCA_statarb](https://github.com/JayQuant/PCA-in-Finance/blob/main/PCA_Statarb_IQ.pdf). While all the required data to run the codes within the notebook are contained in the `notebooks` directory, it is worth to mention that the two most data files are:
+In the `notebooks` directory, `PCA_EDA.ipynb` and `PCA_Backtesting.ipynb` are the notebook files that contain all the work supporting the paper [PCA_statarb](https://github.com/JayQuant/PCA-in-Finance/blob/main/PCA_Statarb_IQ.pdf). While all the required data to run the codes within the notebook are contained in the `data` directory, it is worth mentioning that the two most important data files are:
 
 1. **target_dict.json** : This contains the trading universe based on the date (keyed by dates, values are list of string values). If we want to conduct PCA today to generate signals to trade tomorrow, then we select the trading universe by extracting the appropriate coin list from the `target_dict.json' file.
 
