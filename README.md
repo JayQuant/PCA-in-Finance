@@ -4,7 +4,7 @@ This is a repository of codes exploring the application of PCA in Finance, speci
 In this repository, we will be dealing with two main ideas:
 
 1. [Basic analysis of eigenportfolios using R](https://htmlpreview.github.io/?https://github.com/JayQuant/PCA-in-Finance/blob/main/notebooks/Eigenportfolios_Crypto.html)
-2. [Pairs Trading by constructing mean-reverting residuals]([https://github.com/JayQuant/PCA-in-Finance/blob/main/PCA_Statarb_IQ.pdf](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5263475))
+2. [Pairs Trading by constructing mean-reverting residuals](https://github.com/JayQuant/PCA-in-Finance/blob/main/PCA_Statarb_IQ.pdf](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5263475)
 
 In 1., we provide a very basic peek into the concept of eigenportfolios, or eigenfactors, which are statistical factors constructed by applying PCA to the correlation matrix of the returns.
 
